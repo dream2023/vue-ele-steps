@@ -1,17 +1,31 @@
 {
   "name": "vue-ele-steps",
+  "description": "对element-ui中 steps 组件进一步封装，使其更简单",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
+    "build": "vue build -t lib --name vue-ele-steps -d ./dist/ ./src/index.js",
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "core-js": "^2.6.5",
-    "vue": "^2.6.10"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/vue-ele-steps"
   },
+  "main": "dist/vue-ele-steps.umd.min.js",
+  "homepage": "https://github.com/dream2023/vue-ele-steps/",
+  "keywords": [
+    "vue-ele-steps",
+    "vue",
+    "element",
+    "element steps",
+    "element-ui steps"
+  ],
+  "dependencies": {},
   "devDependencies": {
+    "element-ui": "^2.8.2",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
@@ -49,7 +63,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,vue}": [
+    "src/*.{js,vue}": [
       "vue-cli-service lint",
       "git add"
     ]
