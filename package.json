@@ -1,7 +1,7 @@
 {
   "name": "vue-ele-steps",
   "description": "对element-ui中 steps 组件进一步封装，使其更简单",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "build": "vue build -t lib --name vue-ele-steps -d ./dist/ ./src/index.js",

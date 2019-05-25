@@ -1,4 +1,4 @@
-# vue-ele-steps | element-ui steps 组件进一步封装，使其更简单
+# vue-ele-steps | 让 element-ui steps 更简单
 
 [![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg)](https://opensource.org/licenses/mit-license.php)
 [![npm](https://img.shields.io/npm/v/vue-ele-steps.svg)](https://www.npmjs.com/package/vue-ele-steps)
@@ -11,7 +11,7 @@ vue-ele-steps 对 element-ui 中 steps 组件进一步封装，尽量减少了 h
 
 ## 示例
 
-[https://codepen.io/dream2023/full/wbjGKX/](https://codepen.io/dream2023/full/wbjGKX/)
+[https://codepen.io/dream2023/pen/wbjGKX/](https://codepen.io/dream2023/pen/wbjGKX/)
 
 ## 安装
 
